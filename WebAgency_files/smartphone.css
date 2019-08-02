@@ -1,0 +1,152 @@
+/*smartphone.css*/
+@media screen and (max-width: 425px)
+
+{	
+	/*début header*/
+	li
+	{
+		padding-left:5px;
+		padding-right:5px;
+	}
+	#listheader
+	{
+		display: flex;
+		justify-content: space-around;
+	}
+	/*fin header*/
+
+	/*début section acceuil*/
+	figcaption
+	{
+		display: block;
+		position: relative;
+		margin-top: 0;
+	}
+	#leftbox ,#rightbox
+	{
+		display: none;
+	}
+	#txt-home
+	{
+		margin-top: 0;
+		margin-left: 0;
+	}
+	h1
+	{
+		font-size: 1.5em;
+	}
+	#p-home
+	{
+		color:black;
+	}
+	#home
+	{
+		margin-top: 148px;
+	}
+	br span
+	{
+		display: none;
+	}
+	#title
+	{
+		color: black;
+	}
+	/*fin section acceuil*/
+
+	/*début section service*/
+	#service
+	{
+		padding-top:148px;
+	}
+	#imgservices
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	h2
+	{
+		margin-right:0;
+	}
+	h3
+	{
+		margin:0;
+	}
+	#ux h3 , #ui h3 , #seo h3
+	{
+		margin: auto;
+	}
+	.fa-circle
+	{
+		margin:0;
+	}
+	#imgservice
+	{
+		display: flex;
+		flex-direction: column;
+	}
+	#listservices
+	{
+		padding-left: 0;
+	}
+	#ux h3 , #ui h3 , #seo h3
+	{
+		padding-left: 25px;
+	}
+	/*fin section service*/
+
+	/*début section projets*/
+	#projects
+	{
+		padding-top: 140px;
+	}
+	a
+	{
+		padding: 0;
+	}
+	#allworks
+	{
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+	}
+	#allworks figure
+	{
+		width: 100%;
+		margin: auto;
+	}
+	.fa-caret-down
+	{
+		display: none;
+	}
+	label
+	{
+		padding: 0;
+	}
+	#listprojects
+	{
+		padding-left: 0;
+		font-size: 1.1em;
+	}
+	#figpro
+	{
+		background-color: black;
+	}
+	/*fin section projets*/
+
+	/*début section contact*/
+	#contact
+	{
+		background-color: grey;
+		display: block;
+	}
+	#form-end
+	{
+		right:0;
+		width: 100%;
+	}
+	input, textarea
+	{
+		height: 30px;
+	}
+	/*fin section contact*/
+}

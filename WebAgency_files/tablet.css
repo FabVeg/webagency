@@ -1,0 +1,82 @@
+/*tablet.css*/
+@media screen and (max-width: 768px)
+{
+	/*début section acceuil*/
+	#txt-home
+	{
+		font-size: large;
+		margin-top: 150px;
+	}
+	#leftbox
+	{
+		margin-top: -15%
+	}
+	#rightbox
+	{
+		margin-top: -15%
+	}
+	/*fin section acceuil*/
+
+	/*début section service*/
+	#logo2
+	{
+		height: 200px;
+		margin : auto;
+	}
+	figcaption 
+	{
+    	margin-right:0;
+	}
+	#ux h3 , #ui h3 , #seo h3
+	{
+		padding-left: 25px;
+	}
+	/*fin section service*/
+
+	/*début section projets*/
+	#txt-form
+	{
+		position: relative;
+	}
+	.figpro
+	{
+	 	display: none;
+		width:100%;
+		height:40%;
+		font-size: small;
+	}
+	figure:hover .figpro
+	{
+		display: block;
+	}
+	.fa-eye
+	{
+		top:-25px;
+	}
+	#bouton1, #bouton2, #bouton3, #bouton4
+	{
+		padding:3px;
+	}
+	#bouton1:hover, #bouton2:hover, #bouton3:hover, #bouton4:hover
+	{
+		padding:3px;
+	}
+	#listprojects
+	{
+    	margin-left:0;
+    	padding-left: 0;
+	}
+	.fa-caret-down
+	{
+		top:20px;
+	}
+	#allworks figure
+	{
+		width: 45%;
+	}
+	#form-end
+	{
+		right: 35px;
+	}
+	/*fin section projets*/
+}
